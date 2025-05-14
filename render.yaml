@@ -2,7 +2,7 @@
 # Define un servicio web usando Docker
 services:
   - type: web
-    name: telegram-whatsapp-bot
+    name: contrataciones-bot
     env: docker
     dockerfilePath: Dockerfile
     plan: free  # o starter según disponibilidad
